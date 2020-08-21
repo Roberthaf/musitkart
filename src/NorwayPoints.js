@@ -1,40 +1,17 @@
 
-let points = [
+let norwayPoints = [
   {
-    lat: 65.772,
-    lng: -14.800,
-    zoom: 2,
+    lat: 58.1275,
+    lng: 7.612,
+    zoom: 13,
     info: [
       {
-        label: "Name:",
-        value: "Viking Sverd",
+        label: "Scientific name:",
+        value: "Plagodis pulveraria",
       },
       {
         label: "Place:",
-        value: "Vopnafjörður",
-      },
-      {
-        label: "",
-        value: "100",
-      },
-      {
-        label: "Museum no:",
-        value: "NHMO/ENT-4213",
-      },
-    ],
-  },
-  {
-    lat: 65.762,
-    lng: -14.990,
-    zoom: 5,
-    info: [
-      {
-        label: "Name:",
-        value: "Viking Skjold",
-      },
-      {
-        label: "Place:",
-        value: "Vopnafjörður",
+        value: "Agder",
       },
       {
         label: "",
@@ -46,9 +23,32 @@ let points = [
       },
     ],
   },
+  {
+    lat: 58.1288,
+    lng: 7.512,
+    zoom: 13,
+    info: [
+      {
+        label: "Scientific name:",
+        value: "Fodis aria",
+      },
+      {
+        label: "Place:",
+        value: "Agder",
+      },
+      {
+        label: "",
+        value: "101",
+      },
+      {
+        label: "Museum no:",
+        value: "NHMO/ENT-426132",
+      },
+    ],
+  },
 ];
 
-export default points;
+export default norwayPoints;
 
 /* ,
   {
